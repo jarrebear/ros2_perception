@@ -19,7 +19,8 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [ 'mona_lisa_approach = basics_sensor_data.mona_lisa_approach:main'
+        'console_scripts': [ 'mona_lisa_approach = basics_sensor_data.mona_lisa_approach:main',
+        'color_detector = basics_sensor_data.color_detector:main'
         ],
     },
 )
